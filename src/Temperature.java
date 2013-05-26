@@ -1,4 +1,3 @@
-
 public class Temperature {
 	
 	private float temperatureValue ;
@@ -9,5 +8,10 @@ public class Temperature {
 		this.type = "C";
 	}
 	
+	
+	Temperature(float temperatureValue){
+		this.temperatureValue =  0;
+		this.type = "C";
+	}
 	
 }
